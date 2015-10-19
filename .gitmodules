@@ -1,0 +1,6 @@
+[submodule "third_party/net2-rs"]
+	path = third_party/net2-rs
+	url = https://github.com/rust-lang-nursery/net2-rs.git
+[submodule "third_party/mio"]
+	path = third_party/mio
+	url = git@github.com:overminder/mio.git

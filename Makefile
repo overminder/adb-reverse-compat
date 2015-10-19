@@ -1,6 +1,6 @@
 ANDROID_TARGET := arm-linux-androideabi
 ANDROID_STRIP = $(ANDROID_TARGET)-strip
-RUST_SRCS := $(wildcard src/*.rs)
+RUST_SRCS := $(wildcard src/*.rs) Cargo.toml
 CARGO := cargo
 STRIP := strip
 

@@ -4,6 +4,7 @@ version = "0.1.0"
 
 [dependencies]
 byteorder = "*"
+mio =  { path = "third_party/mio" }
 
 [lib]
 name = "adb_reverse"
