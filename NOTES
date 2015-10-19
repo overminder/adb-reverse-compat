@@ -1,0 +1,14 @@
+# Our Implementation
+
+Basically we rely on `adb forward` for a bidirection communication.
+
+- Client
+
+  Runs on the device. Firstly accepts an initial TCP
+  connection (`the pipe`) from the host through adb forward, then starts
+  accepting device TCP connections (`reverse forwarded connections`).
+
+- Server
+
+  Runs on the host. Firstly connects to the client via `adb forward`, then
+  starts handling forwarded TCP requests from the client.

@@ -1,0 +1,4 @@
+target
+adb-reverse-client
+adb-reverse-server
+.*.swp

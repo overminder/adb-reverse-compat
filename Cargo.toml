@@ -1,0 +1,18 @@
+[package]
+name = "adb-reverse-pipe"
+version = "0.1.0"
+
+[dependencies]
+byteorder = "*"
+
+[lib]
+name = "adb_reverse"
+path = "src/lib.rs"
+
+[[bin]]
+name = "adb-reverse-client"
+path = "src/client.rs"
+
+[[bin]]
+name = "adb-reverse-server"
+path = "src/server.rs"
